@@ -1,0 +1,22 @@
+.nav {
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 5.375rem;
+    list-style: none;
+
+    li {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      font-size: 1.125rem;
+      line-height: 22px;
+      color: var(--white);
+
+      &:first-child {
+        border-bottom: 2px solid var(--white);
+        font-weight: 700;
+        padding-bottom: 8px;
+      }
+    }
+  }
+}
